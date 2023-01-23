@@ -270,6 +270,7 @@ export default function Register() {
           >
             Submit
           </Button>
+          </Box>
         </Card>
       </Grid>
     </>
