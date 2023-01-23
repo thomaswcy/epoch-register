@@ -58,13 +58,13 @@ export default function Register() {
                 }}
                 as="div"
               >
-                Join the waitlist for{' '}
+                Register for Reboot
                 <Text
                   sx={{
                     textDecoration: 'none',
                     cursor: 'pointer'
                   }}
-                  onClick={() => window.open('https://epoch.hackclub.com')}
+                  onClick={() => window.open('https://reboot.hackclub.com')}
                 >
                   Epoch
                 </Text>
@@ -88,27 +88,15 @@ export default function Register() {
               width="auto"
               sx={{ display: ['block', 'none'], borderRadius: 4 }}
             />
-          </Box>
-          <Box bg="red" p={3} mb={3} sx={{ borderRadius: 3, color: 'white' }}>
-            👋 Hey there! You may notice this form has switched over to being
-            a waitlist. The event is currently over-subscribed, however, we expect
-            places to arise and will be offering these places on a first-come-first-serve
-            basis (you'll be notified via email on the Monday of the hackathon).  
-            <b>We strongly recommend still signing up if you're interested.</b>
-          </Box>
           <Box bg="elevated" p={3} mb={3} sx={{ borderRadius: 3 }}>
                Hello friends! 
               <br /><br />
-              A new year brings new possibilities, new adventures, and new memories 🎆
+              Join us for an adventure in the city of dreams from April 7th, 2023 to April 9th, 2023.
               <br /><br />
-              This winter, 150+ teenage hackers will travel to Delhi NCR for Epoch — Hack Club’s first hackathon outside the US! We’ll build the unexpected, share what we’ve learnt in 2022, and experience the thrill of being in-person together.
-              <br /><br />
-              Join us for an adventure in the city of dreams from December 30th, 2022 to January 1st, 2023. Together, we’ll ring in the new year at a high-school hackathon unlike anything the world has seen before.
-              <br /><br />
-              More details & registration are available at: <a href="https://epoch.hackclub.com">epoch.hackclub.com</a>.
+              More details & registration are available at: <a href="https://reboot.hackclub.com">reboot.hackclub.com</a>.
               <br /><br />
             Feel free to contact{' '}
-            <a href="mailto:epoch@hackclub.com">epoch@hackclub.com</a> for help!
+            <a href="mailto:thomaswcy@linkscape.app">thomaswcy@linkscape.app</a> for help!
           </Box>
 
           {manifest.questions.map((sectionItem, sectionIndex) => {
