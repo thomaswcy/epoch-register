@@ -58,7 +58,7 @@ export default function Register() {
                 }}
                 as="div"
               >
-                Register for Reboot
+                Register for {''}
                 <Text
                   sx={{
                     textDecoration: 'none',
@@ -66,7 +66,7 @@ export default function Register() {
                   }}
                   onClick={() => window.open('https://reboot.hackclub.com')}
                 >
-                  Epoch
+                  Reboot
                 </Text>
               </Text>
             </Flex>
