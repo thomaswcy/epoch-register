@@ -18,7 +18,7 @@ export default async function Submit (req, res) {
         return res.json({ success: false, error: `You're missing some fields. Please fill in all missing questions.` });
     }
     if(getAge(req.body["Birthday"]) >= 19){
-        return res.json({ success: false, error: `Sorry, Epoch is only for high school students. Please email us regarding exceptional circumstances.` });
+        return res.json({ success: false, error: `Sorry, Reboot is only for high school students. Please email us regarding exceptional circumstances.` });
     }
     if(!validateEmail(req.body["Email"])){
         return res.json({ success: false, error: `Please enter a valid email.` });
